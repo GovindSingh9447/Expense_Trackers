@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "175142154314",
+    "project_id": "expense-tracker-94ebb",
+    "storage_bucket": "expense-tracker-94ebb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:175142154314:android:8d59477e4efb2c3073b6b3",
+        "android_client_info": {
+          "package_name": "com.willteksoftwares.personalbudgetingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "175142154314-lh0q1dsl4i726t811pl0lmass505ltmg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAG0T6j1w3Mxr03wugXyPuyzXz7EHIZ5mY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "175142154314-lh0q1dsl4i726t811pl0lmass505ltmg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

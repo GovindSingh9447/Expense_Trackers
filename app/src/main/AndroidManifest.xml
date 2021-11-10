@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ranawattech.expensetrackers">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.ranawattech.expensetrackers.AccountActivity"></activity>
+        <activity android:name="com.ranawattech.expensetrackers.HistoryActivity" />
+        <activity android:name="com.ranawattech.expensetrackers.MonthlyAnalyticsActivity" />
+        <activity android:name="com.ranawattech.expensetrackers.WeeklyAnalyticsActivity" />
+        <activity android:name="com.ranawattech.expensetrackers.DailyAnalyticsActivity" />
+        <activity android:name="com.ranawattech.expensetrackers.ChooseAnalyticActivity" />
+        <activity android:name="com.ranawattech.expensetrackers.WeekSpendingActivity" />
+        <activity android:name="com.ranawattech.expensetrackers.TodaySpendingActivity" />
+        <activity android:name="com.ranawattech.expensetrackers.BudgetActivity" />
+        <activity android:name="com.ranawattech.expensetrackers.MainActivity" />
+        <activity android:name="com.ranawattech.expensetrackers.RegistrationActivity" />
+        <activity android:name="com.ranawattech.expensetrackers.LoginActivity" />
+        <activity android:name="com.ranawattech.expensetrackers.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
