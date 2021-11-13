@@ -6,7 +6,7 @@
         <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenseTrackers/app/src/main/res/font/font.xml" value="0.2796875" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenseTrackers/app/src/main/res/layout/activity_account.xml" value="0.24114583333333334" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenseTrackers/app/src/main/res/layout/activity_budget.xml" value="0.24114583333333334" />
-        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenseTrackers/app/src/main/res/layout/activity_choose_analytic.xml" value="0.67" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenseTrackers/app/src/main/res/layout/activity_choose_analytic.xml" value="0.3457814661134163" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenseTrackers/app/src/main/res/layout/activity_daily_analytics.xml" value="0.24114583333333334" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenseTrackers/app/src/main/res/layout/activity_history.xml" value="0.24114583333333334" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenseTrackers/app/src/main/res/layout/activity_login.xml" value="0.25" />
@@ -14,8 +14,8 @@
         <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenseTrackers/app/src/main/res/layout/activity_monthly_analytics.xml" value="0.24114583333333334" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenseTrackers/app/src/main/res/layout/activity_registration.xml" value="0.24114583333333334" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenseTrackers/app/src/main/res/layout/activity_splash_screen.xml" value="0.24114583333333334" />
-        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenseTrackers/app/src/main/res/layout/activity_today_spending.xml" value="0.22" />
-        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenseTrackers/app/src/main/res/layout/activity_week_spending.xml" value="0.1" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenseTrackers/app/src/main/res/layout/activity_today_spending.xml" value="0.4117647058823529" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenseTrackers/app/src/main/res/layout/activity_week_spending.xml" value="0.5" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenseTrackers/app/src/main/res/layout/activity_weekly_analytics.xml" value="0.22" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenseTrackers/app/src/main/res/layout/input_layout.xml" value="0.24114583333333334" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenseTrackers/app/src/main/res/layout/retrieve_layout.xml" value="0.24114583333333334" />
