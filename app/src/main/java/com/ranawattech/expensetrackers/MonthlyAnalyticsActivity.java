@@ -59,11 +59,7 @@ public class MonthlyAnalyticsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_monthly_analytics);
 
-        settingsToolbar = findViewById(R.id.my_Feed_Toolbar);
-        setSupportActionBar(settingsToolbar);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setDisplayShowHomeEnabled(true);
-        getSupportActionBar().setTitle("Monthly Analytics");
+
 
         backbtn=findViewById(R.id.backbtn);
 
