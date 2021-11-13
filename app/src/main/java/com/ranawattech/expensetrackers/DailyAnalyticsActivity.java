@@ -60,11 +60,7 @@ public class DailyAnalyticsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_daily_analytics);
-        settingsToolbar = findViewById(R.id.my_Feed_Toolbar);
-        setSupportActionBar(settingsToolbar);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setDisplayShowHomeEnabled(true);
-        getSupportActionBar().setTitle("Today Analytics");
+
 
         backbtn=findViewById(R.id.backbtn);
 
