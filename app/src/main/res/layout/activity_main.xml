@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#f11"
+    android:background="@drawable/backg"
     tools:context=".MainActivity">
 
     <androidx.appcompat.widget.Toolbar
@@ -229,11 +229,13 @@
                     android:gravity="center"
                     android:orientation="vertical">
 
-                    <ImageView
-                        android:id="@+id/todayBtnImageView"
-                        android:layout_width="60dp"
-                        android:layout_height="60dp"
-                        android:src="@drawable/today" />
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/animationView"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        app:lottie_rawRes="@raw/analytics"
+                        app:lottie_autoPlay="true"
+                        app:lottie_loop="true"/>
 
                     <TextView
                         android:id="@+id/todayBtnTextView"
@@ -267,12 +269,13 @@
                     android:gravity="center"
                     android:orientation="vertical">
 
-                    <ImageView
-                        android:id="@+id/weekBtnImageView"
-                        android:layout_width="60dp"
-                        android:layout_height="60dp"
-                        android:src="@drawable/week" />
-
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/animationView2"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        app:lottie_rawRes="@raw/weekly"
+                        app:lottie_autoPlay="true"
+                        app:lottie_loop="true"/>
                     <TextView
                         android:id="@+id/weekBtnTextView"
                         android:layout_width="wrap_content"
@@ -305,12 +308,13 @@
                     android:gravity="center"
                     android:orientation="vertical">
 
-                    <ImageView
-                        android:id="@+id/monthBtnImageView"
-                        android:layout_width="60dp"
-                        android:layout_height="60dp"
-                        android:src="@drawable/month" />
-
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/animationView3"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        app:lottie_rawRes="@raw/calender"
+                        app:lottie_autoPlay="true"
+                        app:lottie_loop="true"/>
                     <TextView
                         android:id="@+id/monthBtnTextView"
                         android:layout_width="wrap_content"
