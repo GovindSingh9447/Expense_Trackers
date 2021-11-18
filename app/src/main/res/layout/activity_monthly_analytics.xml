@@ -415,12 +415,21 @@
                             />
                     </LinearLayout>
 
-                    <ImageView
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/animationView5"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginEnd="30dp"
+                        android:layout_marginBottom="0dp"
                         android:layout_toEndOf="@+id/linearLayout3"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:src="@drawable/ic_entertainment"
-                        android:layout_margin="10dp"/>
+                        app:lottie_autoPlay="true"
+                        app:lottie_loop="true"
+                        app:lottie_rawRes="@raw/entertainment" />
 
                 </RelativeLayout>
                 <RelativeLayout
@@ -485,12 +494,22 @@
                             />
                     </LinearLayout>
 
-                    <ImageView
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/animationView6"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginEnd="30dp"
+                        android:layout_marginBottom="0dp"
                         android:layout_toEndOf="@+id/linearLayout4"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:src="@drawable/ic_education"
-                        android:layout_margin="10dp"/>
+                        app:lottie_autoPlay="true"
+                        app:lottie_loop="true"
+                        app:lottie_rawRes="@raw/book" />
+
 
                 </RelativeLayout>
                 <RelativeLayout
@@ -555,12 +574,21 @@
                             />
                     </LinearLayout>
 
-                    <ImageView
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/animationView7"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginEnd="30dp"
+                        android:layout_marginBottom="0dp"
                         android:layout_toEndOf="@+id/linearLayout5"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:src="@drawable/ic_consultancy"
-                        android:layout_margin="10dp"/>
+                        app:lottie_autoPlay="true"
+                        app:lottie_loop="true"
+                        app:lottie_rawRes="@raw/donate" />
 
                 </RelativeLayout>
                 <RelativeLayout
@@ -625,12 +653,21 @@
                             />
                     </LinearLayout>
 
-                    <ImageView
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/animationView8"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginEnd="30dp"
+                        android:layout_marginBottom="0dp"
                         android:layout_toEndOf="@+id/linearLayout6"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:src="@drawable/ic_shirt"
-                        android:layout_margin="10dp"/>
+                        app:lottie_autoPlay="true"
+                        app:lottie_loop="true"
+                        app:lottie_rawRes="@raw/cloth" />
 
                 </RelativeLayout>
                 <RelativeLayout
@@ -696,12 +733,21 @@
                             />
                     </LinearLayout>
 
-                    <ImageView
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/animationView9"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginEnd="30dp"
+                        android:layout_marginBottom="0dp"
                         android:layout_toEndOf="@+id/linearLayout7"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:src="@drawable/ic_health"
-                        android:layout_margin="10dp"/>
+                        app:lottie_autoPlay="true"
+                        app:lottie_loop="true"
+                        app:lottie_rawRes="@raw/health" />
 
                 </RelativeLayout>
                 <RelativeLayout
