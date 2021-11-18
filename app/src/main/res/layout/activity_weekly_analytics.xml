@@ -157,13 +157,21 @@
                             />
                     </LinearLayout>
 
-                    <ImageView
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/animationView10"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginEnd="30dp"
+                        android:layout_marginBottom="0dp"
                         android:layout_toEndOf="@+id/linearLayout"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:src="@drawable/ic_transport"
-                        android:layout_margin="10dp"/>
-
+                        app:lottie_autoPlay="true"
+                        app:lottie_loop="true"
+                        app:lottie_rawRes="@raw/transport" />
                 </RelativeLayout>
                 <RelativeLayout
                     android:id="@+id/linearLayoutFood"
@@ -871,12 +879,21 @@
                             />
                     </LinearLayout>
 
-                    <ImageView
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/animationView1"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginEnd="30dp"
+                        android:layout_marginBottom="0dp"
                         android:layout_toEndOf="@+id/linearLayout10"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:src="@drawable/week"
-                        android:layout_margin="10dp"/>
+                        app:lottie_autoPlay="true"
+                        app:lottie_loop="true"
+                        app:lottie_rawRes="@raw/weekly" />
 
                 </RelativeLayout>
 

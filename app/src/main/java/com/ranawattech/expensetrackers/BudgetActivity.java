@@ -53,6 +53,7 @@ public class BudgetActivity extends AppCompatActivity {
     private DatabaseReference budgetRef, personalRef;
     private FirebaseAuth mAuth;
     private ProgressDialog loader;
+    private ImageView backbtn;
 
     private String post_key = "";
     private String item = "";
@@ -69,6 +70,19 @@ public class BudgetActivity extends AppCompatActivity {
         budgetRef = FirebaseDatabase.getInstance().getReference().child("budget").child(mAuth.getCurrentUser().getUid());
         personalRef = FirebaseDatabase.getInstance().getReference("personal").child(mAuth.getCurrentUser().getUid());
         loader = new ProgressDialog(this);
+
+
+
+
+        backbtn=findViewById(R.id.backbtn);
+
+
+        backbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onBackPressed();
+            }
+        });
 
         totalBudgetAmountTextView  = findViewById(R.id.totalBudgetAmountTextView);
         recyclerView = findViewById(R.id.recyclerView);

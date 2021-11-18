@@ -5,26 +5,50 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/backg"
     tools:context=".BudgetActivity">
 
-    <androidx.appcompat.widget.Toolbar
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#0024FF"
+    <RelativeLayout
         android:id="@+id/toolbar"
-        android:elevation="4dp"
-        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@drawable/backg">
+
+        <!--back btn-->
+        <ImageButton
+            android:id="@+id/backbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_back" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="11dp"
+            android:layout_toEndOf="@+id/backbtn"
+            android:text="Budget"
+            android:textColor="#fff"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
 
     <TextView
         android:id="@+id/totalBudgetAmountTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="total Budget amount: ₹0"
+        android:text="Total Budget amount: ₹0"
         android:textSize="25sp"
         android:textStyle="bold"
         android:textAlignment="center"
-        android:textColor="#000"
+        android:textColor="#FFFFFF"
         android:layout_marginTop="5dp"/>
 
     <androidx.coordinatorlayout.widget.CoordinatorLayout
@@ -42,7 +66,7 @@
             android:layout_gravity="bottom|end"
             app:fabSize="normal"
             android:id="@+id/fab"
-            app:backgroundTint="#000"
+            app:backgroundTint="#BB0404"
             android:src="@drawable/ic_add"
             android:layout_margin="16dp"/>
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
