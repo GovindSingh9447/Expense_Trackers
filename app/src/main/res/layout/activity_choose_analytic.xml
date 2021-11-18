@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#808080"
+    android:background="@drawable/backg"
     tools:context=".ChooseAnalyticActivity">
 
     <RelativeLayout
@@ -62,11 +62,15 @@
             android:gravity="center"
             android:layout_gravity="center_vertical|center_horizontal">
 
-            <ImageView
-                android:id="@+id/budgetBtnImageView"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:src="@drawable/today"/>
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/animationView"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:lottie_rawRes="@raw/analytics"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"/>
+
+
             <TextView
                 android:id="@+id/homeBtnTextView"
                 android:layout_width="wrap_content"
@@ -98,11 +102,14 @@
             android:gravity="center"
             android:layout_gravity="center_vertical|center_horizontal">
 
-            <ImageView
-                android:id="@+id/weekBtnImageView"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:src="@drawable/week"/>
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/animationView2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:lottie_rawRes="@raw/weekly"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"/>
+
             <TextView
                 android:id="@+id/weekBtnTextView"
                 android:layout_width="wrap_content"
@@ -134,11 +141,15 @@
             android:gravity="center"
             android:orientation="vertical">
 
-            <ImageView
-                android:id="@+id/monthBtnImageView"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:src="@drawable/month" />
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/animationView3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:lottie_rawRes="@raw/calender"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"/>
+
+
 
             <TextView
                 android:id="@+id/monthBtnTextView"
