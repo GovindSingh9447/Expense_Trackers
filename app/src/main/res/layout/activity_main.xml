@@ -195,9 +195,9 @@
                         android:id="@+id/animationView4"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        app:lottie_rawRes="@raw/budget"
                         app:lottie_autoPlay="true"
-                        app:lottie_loop="true"/>
+                        app:lottie_loop="true"
+                        app:lottie_rawRes="@raw/budget" />
 
                     <TextView
                         android:id="@+id/homeBtnTextView"
@@ -235,9 +235,9 @@
                         android:id="@+id/animationView"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        app:lottie_rawRes="@raw/analytics"
                         app:lottie_autoPlay="true"
-                        app:lottie_loop="true"/>
+                        app:lottie_loop="true"
+                        app:lottie_rawRes="@raw/analytics" />
 
                     <TextView
                         android:id="@+id/todayBtnTextView"
@@ -275,9 +275,10 @@
                         android:id="@+id/animationView2"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        app:lottie_rawRes="@raw/weekly"
                         app:lottie_autoPlay="true"
-                        app:lottie_loop="true"/>
+                        app:lottie_loop="true"
+                        app:lottie_rawRes="@raw/weekly" />
+
                     <TextView
                         android:id="@+id/weekBtnTextView"
                         android:layout_width="wrap_content"
@@ -314,9 +315,10 @@
                         android:id="@+id/animationView3"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        app:lottie_rawRes="@raw/calender"
                         app:lottie_autoPlay="true"
-                        app:lottie_loop="true"/>
+                        app:lottie_loop="true"
+                        app:lottie_rawRes="@raw/calender" />
+
                     <TextView
                         android:id="@+id/monthBtnTextView"
                         android:layout_width="wrap_content"
@@ -353,9 +355,9 @@
                         android:id="@+id/animationView5"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        app:lottie_rawRes="@raw/aanalytics"
                         app:lottie_autoPlay="true"
-                        app:lottie_loop="true"/>
+                        app:lottie_loop="true"
+                        app:lottie_rawRes="@raw/aanalytics" />
 
 
                     <TextView
@@ -380,6 +382,7 @@
                 android:layout_gravity="fill"
                 android:layout_margin="8dp"
                 android:background="#fff"
+                android:visibility="invisible"
                 app:cardCornerRadius="10dp"
                 app:cardElevation="8dp">
 
@@ -409,6 +412,7 @@
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/fab"
+            android:visibility="invisible"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|end"
