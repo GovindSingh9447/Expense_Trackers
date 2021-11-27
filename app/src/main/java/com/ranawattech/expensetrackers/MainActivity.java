@@ -21,6 +21,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
+import com.ranawattech.expensetrackers.view.ImageActivity;
 
 import org.joda.time.DateTime;
 import org.joda.time.Months;
@@ -124,13 +125,21 @@ public class MainActivity extends AppCompatActivity {
         });
 
         historyCardView = findViewById(R.id.historyCardView);
+//        historyCardView.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent intent = new Intent(MainActivity.this, HistoryActivity.class);
+//                startActivity(intent);
+//            }
+//        });
+
         historyCardView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, HistoryActivity.class);
-                startActivity(intent);
-            }
-        });
+             @Override
+             public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, ImageActivity.class);
+                 startActivity(intent);
+             }
+         });
 
 
         budgetRef.addValueEventListener(new ValueEventListener() {
