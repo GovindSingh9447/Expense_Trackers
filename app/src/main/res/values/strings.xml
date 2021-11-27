@@ -14,4 +14,22 @@
         <item>Personal</item>
         <item>Other</item>
     </string-array>
+
+
+    <string name="new_here_create_account">New here? <u>Create Account</u></string>
+    <string name="already_have_account_sign_in">Already have account?<u> Sign In</u></string>
+    <string name="welcome_back">Welcome Back!!</string>
+    <string name="login_to_c">Login to continue</string>
+    <string name="log_in">log in</string>
+    <string name="home">Home</string>
+    <string name="history">History</string>
+    <string name="goals">Goals</string>
+    <string name="profile">Profile</string>
+    <string name="get_started">Get <br> Started</br></string>
+    <string name="welcome_xyz"><b>Welcome!</b> <br>XYZ</br></string>
+    <string name="welcome_desc">Track all your expenses with just a tap!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
 </resources>

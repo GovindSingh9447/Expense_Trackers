@@ -9,19 +9,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.ranawattech.expensetrackers.AccountActivity"></activity>
-        <activity android:name="com.ranawattech.expensetrackers.HistoryActivity" />
-        <activity android:name="com.ranawattech.expensetrackers.MonthlyAnalyticsActivity" />
-        <activity android:name="com.ranawattech.expensetrackers.WeeklyAnalyticsActivity" />
-        <activity android:name="com.ranawattech.expensetrackers.DailyAnalyticsActivity" />
-        <activity android:name="com.ranawattech.expensetrackers.ChooseAnalyticActivity" />
-        <activity android:name="com.ranawattech.expensetrackers.WeekSpendingActivity" />
-        <activity android:name="com.ranawattech.expensetrackers.TodaySpendingActivity" />
-        <activity android:name="com.ranawattech.expensetrackers.BudgetActivity" />
-        <activity android:name="com.ranawattech.expensetrackers.MainActivity" />
-        <activity android:name="com.ranawattech.expensetrackers.RegistrationActivity" />
-        <activity android:name="com.ranawattech.expensetrackers.LoginActivity" />
-        <activity android:name="com.ranawattech.expensetrackers.SplashScreenActivity">
+        <activity
+            android:name=".SecondScreen"
+            android:exported="true" />
+        <activity
+            android:name=".GetStart"
+            android:exported="true" />
+        <activity android:name=".AccountActivity" />
+        <activity android:name=".HistoryActivity" />
+        <activity android:name=".MonthlyAnalyticsActivity" />
+        <activity android:name=".WeeklyAnalyticsActivity" />
+        <activity android:name=".DailyAnalyticsActivity" />
+        <activity android:name=".ChooseAnalyticActivity" />
+        <activity android:name=".WeekSpendingActivity" />
+        <activity android:name=".TodaySpendingActivity" />
+        <activity android:name=".BudgetActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".RegistrationActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".SplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

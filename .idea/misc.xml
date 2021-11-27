@@ -3,6 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidStudioProjects/ExpenseTrackers/app/src/main/res/drawable/background_input.xml" value="0.25729166666666664" />
+        <entry key="..\:/AndroidStudioProjects/ExpenseTrackers/app/src/main/res/layout/activity_daily_analytics.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/ExpenseTrackers/app/src/main/res/layout/activity_get_start.xml" value="0.75" />
+        <entry key="..\:/AndroidStudioProjects/ExpenseTrackers/app/src/main/res/layout/activity_history.xml" value="0.10729166666666666" />
+        <entry key="..\:/AndroidStudioProjects/ExpenseTrackers/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/ExpenseTrackers/app/src/main/res/layout/activity_main.xml" value="0.23697916666666666" />
+        <entry key="..\:/AndroidStudioProjects/ExpenseTrackers/app/src/main/res/layout/activity_registration.xml" value="0.23697916666666666" />
+        <entry key="..\:/AndroidStudioProjects/ExpenseTrackers/app/src/main/res/layout/activity_second_screen.xml" value="0.2234375" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenseTrackers/app/src/main/res/font/font.xml" value="0.2796875" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenseTrackers/app/src/main/res/layout/activity_account.xml" value="0.24114583333333334" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenseTrackers/app/src/main/res/layout/activity_budget.xml" value="0.24114583333333334" />

@@ -55,6 +55,11 @@ dependencies {
 
     implementation "com.airbnb.android:lottie:3.5.0"
 
+    // Scalable size unit (For different size screen)
+    implementation 'com.intuit.sdp:sdp-android:1.0.6'
+    implementation 'com.intuit.ssp:ssp-android:1.0.6'
+
+
     //implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
 
 
