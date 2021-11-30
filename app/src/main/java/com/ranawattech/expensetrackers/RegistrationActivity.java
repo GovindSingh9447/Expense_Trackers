@@ -134,7 +134,7 @@ public class RegistrationActivity extends AppCompatActivity {
                         //data added to db
                         Toast.makeText(RegistrationActivity.this, "Account Created...", Toast.LENGTH_SHORT).show();
                         //
-                        startActivity(new Intent(RegistrationActivity.this, TodaySpendingActivity.class ));
+                        startActivity(new Intent(RegistrationActivity.this, MainActivity.class ));
                         finish();
                         progressDialog.dismiss();
 
