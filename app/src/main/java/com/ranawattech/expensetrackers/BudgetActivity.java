@@ -133,7 +133,7 @@ public class BudgetActivity extends AppCompatActivity {
 
                         totalammount+=data.getAmount();
 
-                        String sttotal=String.valueOf("Month Budget: "+totalammount);
+                        String sttotal=String.valueOf("Month budget: ₹"+totalammount);
 
                         totalBudgetAmountTextView.setText(sttotal);
 
@@ -202,12 +202,12 @@ public class BudgetActivity extends AppCompatActivity {
                 }
 
                 else {
-                    loader.setMessage("adding a budget item");
+                    loader.setMessage("Adding a budget item");
                     loader.setCanceledOnTouchOutside(false);
                     loader.show();
 
                     String id  = budgetRef.push().getKey();
-                    DateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy");
+                    DateFormat dateFormat = new SimpleDateFormat("dd-mm-yyyy");
                     Calendar cal = Calendar.getInstance();
                     String date = dateFormat.format(cal.getTime());
 
@@ -226,7 +226,7 @@ public class BudgetActivity extends AppCompatActivity {
                         @Override
                         public void onComplete(@NonNull Task<Void> task) {
                           if (task.isSuccessful()){
-                              Toast.makeText(BudgetActivity.this, "Budget item added successfuly", Toast.LENGTH_SHORT).show();
+                              Toast.makeText(BudgetActivity.this, "Budget item added successfully", Toast.LENGTH_SHORT).show();
                           }else {
                               Toast.makeText(BudgetActivity.this, task.getException().toString(), Toast.LENGTH_SHORT).show();
                           }
@@ -263,7 +263,7 @@ public class BudgetActivity extends AppCompatActivity {
             @Override
             protected void onBindViewHolder(@NonNull MyViewHolder holder, final int position, @NonNull final Data model) {
 
-                holder.setItemAmount("Allocated amount: $"+ model.getAmount());
+                holder.setItemAmount("Allocated amount: ₹"+ model.getAmount());
                 holder.setDate("On: "+model.getDate());
                 holder.setItemName("BudgetItem: "+model.getItem());
 
@@ -387,7 +387,7 @@ public class BudgetActivity extends AppCompatActivity {
 
                 amount = Integer.parseInt(mAmount.getText().toString());
 
-                DateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy");
+                DateFormat dateFormat = new SimpleDateFormat("dd-mm-yyyy");
                 Calendar cal = Calendar.getInstance();
                 String date = dateFormat.format(cal.getTime());
 
