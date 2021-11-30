@@ -52,15 +52,19 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1">
+
             <Button
                 android:id="@+id/btnDelete"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginBottom="2dp"
                 android:text="Delete"
                 android:textAllCaps="false"
                 android:textColor="#000"
-                android:textStyle="bold"
-                android:layout_margin="2dp"/>
+                android:textStyle="bold" />
 
         </RelativeLayout>
 

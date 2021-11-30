@@ -24,6 +24,7 @@ public class SecondScreen extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(SecondScreen.this,RegistrationActivity.class));
+                finish();
             }
         });
 
@@ -31,6 +32,7 @@ public class SecondScreen extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(SecondScreen.this,LoginActivity.class));
+                finish();
             }
         });
 

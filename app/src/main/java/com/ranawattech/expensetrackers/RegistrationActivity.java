@@ -63,7 +63,7 @@ public class RegistrationActivity extends AppCompatActivity {
             }
         });
 
-        registerBtn.setOnClickListener(new View.OnClickListener() {
+        /*registerBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 String nameString = name.getText().toString();
@@ -134,7 +134,7 @@ public class RegistrationActivity extends AppCompatActivity {
                         //data added to db
                         Toast.makeText(RegistrationActivity.this, "Account Created...", Toast.LENGTH_SHORT).show();
                         //
-                        startActivity(new Intent(RegistrationActivity.this, MainActivity.class ));
+                        startActivity(new Intent(RegistrationActivity.this, TodaySpendingActivity.class ));
                         finish();
                         progressDialog.dismiss();
 
@@ -148,7 +148,43 @@ public class RegistrationActivity extends AppCompatActivity {
 
                     }
                 });
+*/
 
+        registerBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String emailString = email.getText().toString();
+                String passwordString = password.getText().toString();
+
+                if (TextUtils.isEmpty(emailString)){
+                    email.setError("Email is required");
+                }
+                if (TextUtils.isEmpty(passwordString)){
+                    password.setError("Password is required");
+                }
+                else {
+
+                    progressDialog.setMessage("registration in progress");
+                    progressDialog.setCanceledOnTouchOutside(false);
+                    progressDialog.show();
+
+                    mAuth.createUserWithEmailAndPassword(emailString, passwordString).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                        @Override
+                        public void onComplete(@NonNull Task<AuthResult> task) {
+                            if (task.isSuccessful()){
+                                Intent intent = new Intent(RegistrationActivity.this, MainActivity.class);
+                                startActivity(intent);
+                                finish();
+                                progressDialog.dismiss();
+                            }else {
+                                Toast.makeText(RegistrationActivity.this, task.getException().toString(), Toast.LENGTH_SHORT).show();
+                                progressDialog.dismiss();
+                            }
+                        }
+                    });
+                }
+            }
+        });
 
 
     }

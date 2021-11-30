@@ -9,6 +9,7 @@
         <entry key="..\:/AndroidStudioProjects/ExpenseTrackers/app/src/main/res/drawable/ic_broken_image.xml" value="0.2609375" />
         <entry key="..\:/AndroidStudioProjects/ExpenseTrackers/app/src/main/res/drawable/ic_shutter.xml" value="0.2609375" />
         <entry key="..\:/AndroidStudioProjects/ExpenseTrackers/app/src/main/res/drawable/ic_switch.xml" value="0.2609375" />
+        <entry key="..\:/AndroidStudioProjects/ExpenseTrackers/app/src/main/res/layout/activity_budget.xml" value="0.22916666666666666" />
         <entry key="..\:/AndroidStudioProjects/ExpenseTrackers/app/src/main/res/layout/activity_camera.xml" value="0.240625" />
         <entry key="..\:/AndroidStudioProjects/ExpenseTrackers/app/src/main/res/layout/activity_daily_analytics.xml" value="0.25" />
         <entry key="..\:/AndroidStudioProjects/ExpenseTrackers/app/src/main/res/layout/activity_get_start.xml" value="0.16" />
@@ -18,12 +19,16 @@
         <entry key="..\:/AndroidStudioProjects/ExpenseTrackers/app/src/main/res/layout/activity_main.xml" value="0.23697916666666666" />
         <entry key="..\:/AndroidStudioProjects/ExpenseTrackers/app/src/main/res/layout/activity_registration.xml" value="0.23697916666666666" />
         <entry key="..\:/AndroidStudioProjects/ExpenseTrackers/app/src/main/res/layout/activity_second_screen.xml" value="0.2234375" />
+        <entry key="..\:/AndroidStudioProjects/ExpenseTrackers/app/src/main/res/layout/activity_splash_screen.xml" value="0.22916666666666666" />
         <entry key="..\:/AndroidStudioProjects/ExpenseTrackers/app/src/main/res/layout/activity_today_spending.xml" value="0.240625" />
-        <entry key="..\:/AndroidStudioProjects/ExpenseTrackers/app/src/main/res/layout/activity_weekly_analytics.xml" value="0.240625" />
+        <entry key="..\:/AndroidStudioProjects/ExpenseTrackers/app/src/main/res/layout/activity_weekly_analytics.xml" value="0.67" />
         <entry key="..\:/AndroidStudioProjects/ExpenseTrackers/app/src/main/res/layout/camera_ui_container.xml" value="0.240625" />
         <entry key="..\:/AndroidStudioProjects/ExpenseTrackers/app/src/main/res/layout/fragment_image_details.xml" value="0.240625" />
         <entry key="..\:/AndroidStudioProjects/ExpenseTrackers/app/src/main/res/layout/fragments_image_list.xml" value="0.240625" />
+        <entry key="..\:/AndroidStudioProjects/ExpenseTrackers/app/src/main/res/layout/input_layout.xml" value="0.22916666666666666" />
         <entry key="..\:/AndroidStudioProjects/ExpenseTrackers/app/src/main/res/layout/list_item_images_grid.xml" value="0.240625" />
+        <entry key="..\:/AndroidStudioProjects/ExpenseTrackers/app/src/main/res/layout/retrieve_layout.xml" value="0.22916666666666666" />
+        <entry key="..\:/AndroidStudioProjects/ExpenseTrackers/app/src/main/res/layout/update_layout.xml" value="0.22916666666666666" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenseTrackers/app/src/main/res/font/font.xml" value="0.2796875" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenseTrackers/app/src/main/res/layout/activity_account.xml" value="0.24114583333333334" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenseTrackers/app/src/main/res/layout/activity_budget.xml" value="0.24114583333333334" />
