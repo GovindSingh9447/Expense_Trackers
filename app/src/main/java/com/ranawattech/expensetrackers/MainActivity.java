@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
 
    private CardView budgetCardView, todayCardView, homeBtn, weekCardView, monthCardView, historyCardView;
 
-   // private ImageView weekBtnImageView, todayBtnImageView, monthBtnImageView, analyticsImageView; /*budgetBtnImageView ;*/
+   // private ImageView weekBtnImageView,      todayBtnImageView, monthBtnImageView, analyticsImageView; /*budgetBtnImageView ;*/
 
     private CardView analyticsCardView;
 
