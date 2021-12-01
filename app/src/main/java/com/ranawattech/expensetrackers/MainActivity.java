@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
 
    private CardView budgetCardView, todayCardView, homeBtn, weekCardView, monthCardView, historyCardView;
 
-   // private ImageView weekBtnImageView,      todayBtnImageView, monthBtnImageView, analyticsImageView; /*budgetBtnImageView ;*/
+   // private ImageView weekBtnImageView, todayBtnImageView, monthBtnImageView, analyticsImageView; /*budgetBtnImageView ;*/
 
     private CardView analyticsCardView;
 
@@ -110,7 +110,7 @@ public class MainActivity extends AppCompatActivity {
         monthCardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, WeekSpendingActivity.class);
+                Intent intent = new Intent(MainActivity.this, MonthSpending.class);
                 startActivity(intent);
             }
         });
